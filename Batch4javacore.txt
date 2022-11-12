@@ -1,0 +1,10 @@
++Tham Trị (dành cho các kiểu giữ liệu nguyên thủy long , int , byte ,short...):chỉ có hiệu lực làm thay đổi giá trị bên trong phương thức 
++Tham Chiếu:khi gọi một phương thức và truyền một tham chiếu cho phương thức
++class : gồm các instance và method
++boxing và unboxing: chuyển đổi linh hoạt từ kiểu dữ liệu nguyên thủy sang kiểu wrapper tương ứng
++abstract class :là một lớp trừu tượng không tạo ra các đối tượng
++Từ khóa static : dùng cho biến, phương thứ và khối. Khi khai báo biến static thì dữ liệu của biến thuộc về class,
+ không duy nhất cho mỗi đối tượng. Phương thức cũng thế, thuộc về lớp và được gọi mà không cần tạo instance của lớp. 
+Khối static được dùng để khởi tạo thành viên dữ liệu, được thực thi trước phương thức main lúc tải class.
++Từ khóa final: được dùng cho biến, phương thức và class. Khi biến được khai báo là final thì biến đó sẽ không bị thay đổi.
+ Khi phương thức được khai báo là final thì phương thức đó không thể bị ghi đè. Khi class được khai báo là final thì class đó không thể được extend
